@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Julee&family=Roboto:wght@300&family=Trocchi&display=swap');
+
+/*HEADER Y COLORES*/
+:root {
+    --fondo-bg-color: #000107;
+    --second-bg-color: #aa8269;
+  }
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+p, td{ 
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+
+
+th {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+
+div.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    color: var(--second-bg-color);
+    background-color: var(--fondo-bg-color);
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+div.jumbotron h1 {
+  text-align: center;
+  font-size: 70px;
+  color: var(--second-bg-color);
+  font-family: 'Trocchi', serif;
+  letter-spacing: 4px;
+}
+
+/*CONTENEDOR*/
+
+.contenedor {
+  margin: 15px;
+  padding: 30px;
+  box-shadow: 0px 0px 9px 1px var(--second-bg-color);
+  border-radius: 20px;
+
+}
+
+/*BARRA NAVEGACION*/
+nav.navbar {
+  background-color: var(--fondo-bg-color);
+}
+
+nav ul li{
+  letter-spacing: 1px;
+  background-color: var(--fondo-bg-color);
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+
+nav ul li a{
+  letter-spacing: 1px;
+  color: var(--second-bg-color);
+}
+
+/*AJUSTES ADICIONALES*/
+img {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+#h2 {
+  text-align: center;
+  color: var(--second-bg-color);
+  font-weight: 800;
+}
+
+button[type="submit"] {
+  background-color: var(--second-bg-color);
+  border: none;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  color: var(--fondo-bg-color);
+  margin-top: 30px;
+  font-size: 19px;
+  font-family: 'Trocchi', serif;
+}
+
+footer li {
+  list-style: none;
+}
+
+
+label {
+  padding: 10px;
+  margin: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px 0;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
